@@ -89,8 +89,8 @@ p {
 
 #product, .product { background-color: #F0DAD3; }
 #product .content-footer { font-family: 'Domaine Text Italics', 'Calibri', 'Arial'; }
-//#product .gallery { display: none; }
-#product .gallery img {
+#product .gallery-container { display: none; }
+#product .gallery-container .gallery img {
 	width: initial;
 	margin: auto;
 }

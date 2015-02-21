@@ -42,6 +42,7 @@ p {
 .section-header {
 	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
 	font-size: 22px;
+	margin-bottom: 70px;
 }
 
 .content-header {
@@ -88,9 +89,26 @@ p {
 
 #product, .product { background-color: #F0DAD3; }
 #product .content-footer { font-family: 'Domaine Text Italics', 'Calibri', 'Arial'; }
+//#product .gallery { display: none; }
 #product .gallery img {
 	width: initial;
 	margin: auto;
+}
+#product .product-info {
+	width: 260px;
+	margin: auto;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+#product .product-info .product-description { padding: 10px; }
+#product .product-info .product-image.hover { display: none; }
+#product .product-info .product-description.hover { display: block; }
+
+@media (min-width: 992px) {
+	#product .product-info .product-description {
+		display: none;
+		height: 365px;
+	}
 }
 
 #prices { background-color: #C3E3EC; }

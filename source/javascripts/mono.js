@@ -38,4 +38,22 @@ $(document).ready(function(){
 	// Initialize slick for image gallery
 	$('.gallery').slick();
 
+	// Product image hover
+	// TODO fix hover on smaller screen sizes
+	$('.product-info').hover(
+		function(){
+			var $image = $(this).children('.product-image'),
+					$description = $(this).children('.product-description');
+
+			$image.hide();
+			$description.show();
+		},
+		function(){
+			var $image = $(this).children('.product-image'),
+					$description = $(this).children('.product-description');
+
+			$image.show();
+			$description.hide();
+		}
+	);
 });

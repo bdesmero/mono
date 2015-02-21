@@ -42,18 +42,33 @@ $(document).ready(function(){
 	// TODO fix hover on smaller screen sizes
 	$('.product-info').hover(
 		function(){
-			var $image = $(this).children('.product-image'),
-					$description = $(this).children('.product-description');
+			var $this = $(this),
+					$image = $this.children('.product-image'),
+					$description = $this.children('.product-description');
 
 			$image.hide();
 			$description.show();
 		},
 		function(){
-			var $image = $(this).children('.product-image'),
-					$description = $(this).children('.product-description');
+			var $this = $(this),
+					$image = $this.children('.product-image'),
+					$description = $this.children('.product-description');
 
 			$image.show();
 			$description.hide();
 		}
 	);
+
+	// Product view gallery
+	$('.gallery-link').on('click', function(e){
+		e.preventDefault();
+
+		var $this = $(this),
+				target = $this.data('gallery'),
+				$targetGallery = $("#" + target + "-gallery"),
+				$productInfo = $('#product .section-container .row');
+
+		$targetGallery.show();
+		$productInfo.hide();
+	});
 });

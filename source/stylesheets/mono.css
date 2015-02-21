@@ -65,7 +65,7 @@ p {
 }
 
 #top img.background {
-	height: 100%;
+	width: 100%;
 	position: absolute;
 	z-index: -1;
 }
@@ -88,6 +88,10 @@ p {
 
 #product, .product { background-color: #F0DAD3; }
 #product .content-footer { font-family: 'Domaine Text Italics', 'Calibri', 'Arial'; }
+#product .gallery img {
+	width: initial;
+	margin: auto;
+}
 
 #prices { background-color: #C3E3EC; }
 #prices .package-name {

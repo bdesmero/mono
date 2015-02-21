@@ -35,4 +35,7 @@ $(document).ready(function(){
     }, 1000, 'swing');
 	});
 
+	// Initialize slick for image gallery
+	$('.gallery').slick();
+
 });

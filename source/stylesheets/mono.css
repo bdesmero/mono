@@ -66,13 +66,23 @@ p {
 }
 
 #top img.background {
-	width: 100%;
+	width: initial;
+	height: 100%;
 	position: absolute;
 	z-index: -1;
 }
-#top .section-container { padding-top: 20%; }
-#top img.logo {
-	width: 50%;
+#top .section-container { padding-top: 250px; }
+#top .section-container .logo { width: 50%; }
+#top .section-container .down-arrow {
+	margin-top: 150px;
+	display: block;
+}
+
+@media (min-width: 1180px) {
+	#top img.background {
+		width: 100%;
+		height: initial;
+	}
 }
 
 #home { background-color: #F0EADF; }

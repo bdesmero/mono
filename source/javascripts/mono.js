@@ -26,7 +26,7 @@ $(document).ready(function(){
 	}, 200);
 
 	// Navbar links on click
-	$('.navbar a').on('click', function(e){
+	$('.navbar a, a.home-link').on('click', function(e){
 		e.preventDefault();
 		var el = $($(this).attr('href'));
 

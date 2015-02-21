@@ -92,6 +92,12 @@ p {
 	width: initial;
 	margin: auto;
 }
+#product .product-info {
+	width: 260px;
+	margin: auto;
+	padding: 10px 0;
+}
+#product .product-info .product-description { padding: 10px; }
 
 #prices { background-color: #C3E3EC; }
 #prices .package-name {

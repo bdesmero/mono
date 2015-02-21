@@ -1,0 +1,115 @@
+html { height: 100%; }
+
+body { height: 100%; }
+
+nav {
+	background-color: #FFFFFF;
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+	text-transform: uppercase;
+}
+
+nav .navbar {
+	margin-bottom: 0;
+	border: none;
+	min-height: 0;
+}
+
+p {
+	font-family: 'Domain Text', 'Calibri', 'Arial';
+	font-size: 10px;
+	color: #000000;
+}
+
+.full-screen { min-height: 100%; }
+
+.section-container {
+	max-width: 960px;
+	margin: auto;
+	padding: 75px 0;
+	text-align: center;
+}
+
+.section-container .well {
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	text-align: center;
+}
+
+.section-header {
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 22px;
+}
+
+.content-header {
+	font-family: 'Domaine Text', 'Calibri', 'Arial';
+	font-size: 20px;
+}
+
+.content-footer {
+	font-family: 'Domaine Text Italics', 'Calibri', 'Arial';
+	font-size: 12px;
+	color: #666666;
+}
+
+.content-footer a {
+	color: #666666;
+	text-decoration: none;
+}
+.content-footer a:hover {
+	color: #DEB879;
+	text-decoration: none;
+}
+
+#top img.background {
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+#top .section-container { padding-top: 20%; }
+#top img.logo {
+	width: 50%;
+}
+
+#home { background-color: #F0EADF; }
+#home .introduction {
+	font-family: 'Domaine Text', 'Calibri', 'Arial';
+	font-size: 25px;
+	color: #000000;
+}
+#home .subtext {
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 14px;
+	color: #DEB879;
+}
+
+#product, .product { background-color: #F0DAD3; }
+#product .content-footer { font-family: 'Domaine Text Italics', 'Calibri', 'Arial'; }
+
+#prices { background-color: #C3E3EC; }
+#prices .package-name {
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 14px;
+	color: #5F92AA;
+}
+#prices .price { font-weight: bold; }
+
+#contact { background-color: #C3D088; }
+#contact p, #contact form input, #contact form textarea { font-size: 11px; }
+#contact .content-header {
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 14px;
+	color: #C3D0B8;
+}
+#contact .btn {
+	background-color: #5A9592;
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 12px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+#footer { padding: 30px 25px; }

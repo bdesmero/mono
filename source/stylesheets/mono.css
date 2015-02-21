@@ -76,16 +76,34 @@ p {
 }
 
 #home { background-color: #F0EADF; }
-#home .introduction {
+#home .section-container .row { margin-top: 75px; }
+#home .portrait-container {
+	width: 300px;
+	height: 415px;
+	margin: 10px auto;
+	padding: 10px 0;
+}
+#home .introduction-container {
+	margin: 10px auto;
+	height: 415px;
+}
+#home .introduction-container .introduction {
 	font-family: 'Domaine Text', 'Calibri', 'Arial';
 	font-size: 25px;
 	color: #000000;
 }
-#home .subtext {
+#home .introduction-container .subtext {
 	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
 	font-size: 14px;
 	color: #DEB879;
 }
+
+@media (max-width: 991px) {
+	#home .introduction-container {
+		width: 300px;
+	}
+}
+
 
 #product, .product { background-color: #F0DAD3; }
 #product .content-footer { font-family: 'Domaine Text Italics', 'Calibri', 'Arial'; }

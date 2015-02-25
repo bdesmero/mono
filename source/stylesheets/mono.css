@@ -161,18 +161,31 @@ p {
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
 
 #contact { background-color: #C3D088; }
+#contact .contact-container { 
+	margin: auto;
+	margin-top: 10px;
+	text-align: left;
+}
 #contact p, #contact form input, #contact form textarea { font-size: 11px; }
-#contact .content-header {
+#contact .contact-container.contact-info-container { width: 300px; }
+#contact .contact-container .content-header {
 	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
 	font-size: 14px;
 	color: #C3D0B8;
 }
-#contact .btn {
+#contact .contact-container.contact-form-container .submit-container { height: 30px; }
+#contact .contact-container.contact-form-container .submit-container .btn {
 	background-color: #5A9592;
 	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
 	font-size: 12px;
 	color: #FFFFFF;
 	text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+	#contact .contact-form-container {
+		width: 300px;
+	}
 }
 
 #footer { padding: 30px 25px; }

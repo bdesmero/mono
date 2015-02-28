@@ -46,20 +46,24 @@ $(document).ready(function(){
 	// TODO fix hover on smaller screen sizes
 	$('.product-info').hover(
 		function(){
-			var $this = $(this),
-					$image = $this.children('.product-image'),
-					$description = $this.children('.product-description');
+			if (window.innerWidth > 991) {
+				var $this = $(this),
+						$image = $this.children('.product-image'),
+						$description = $this.children('.product-description');
 
-			$image.hide();
-			$description.show();
+				$image.hide();
+				$description.show();
+			}
 		},
 		function(){
-			var $this = $(this),
-					$image = $this.children('.product-image'),
-					$description = $this.children('.product-description');
+			if (window.innerWidth > 991) {
+				var $this = $(this),
+						$image = $this.children('.product-image'),
+						$description = $this.children('.product-description');
 
-			$image.show();
-			$description.hide();
+				$image.show();
+				$description.hide();
+			}
 		}
 	);
 

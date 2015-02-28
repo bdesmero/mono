@@ -144,6 +144,12 @@ p {
 	}
 }
 
+@media (max-width: 991px) {
+	#product .product-info .product-description {
+		display: block !important;
+	}
+}
+
 #prices { background-color: #C3E3EC; }
 #prices .product-packages {
 	width: 260px;

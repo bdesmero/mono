@@ -4,7 +4,7 @@ body { height: 100%; }
 
 nav {
 	background-color: #FFFFFF;
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 12px;
 	margin-bottom: 0;
 	display: none;
@@ -19,7 +19,7 @@ nav.navbar .navbar-header .navbar-brand { padding: 10px 15px; }
 nav.navbar .navbar-header .navbar-brand img { height: 35px; }
 
 p {
-	font-family: 'Domain Text', 'Calibri', 'Arial';
+	font-family: 'Lora', 'Times New Roman';
 	font-size: 10px;
 	color: #000000;
 }
@@ -41,19 +41,20 @@ p {
 }
 
 .section-header {
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 22px;
 	margin-bottom: 70px;
 }
 
 .content-header {
-	font-family: 'Domaine Text', 'Calibri', 'Arial';
+	font-family: 'Lora', 'Times New Roman';
 	font-size: 20px;
 }
 
 .content-footer {
-	font-family: 'Domaine Text Italics', 'Calibri', 'Arial';
+	font-family: 'Lora', 'Times New Roman';
 	font-size: 12px;
+	font-style: italic;
 	color: #666666;
 }
 
@@ -99,12 +100,12 @@ p {
 	height: 415px;
 }
 #home .introduction-container .introduction {
-	font-family: 'Domaine Text', 'Calibri', 'Arial';
+	font-family: 'Lora', 'Times New Roman';
 	font-size: 25px;
 	color: #000000;
 }
 #home .introduction-container .subtext {
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #DEB879;
 }
@@ -117,7 +118,10 @@ p {
 
 
 #product, .product { background-color: #F0DAD3; }
-#product .content-footer { font-family: 'Domaine Text Italics', 'Calibri', 'Arial'; }
+#product .content-footer {
+	font-family: 'Lora', 'Times New Roman';
+	font-style: italic;
+}
 #product .gallery-container { display: none; }
 #product .gallery-container .gallery img {
 	width: initial;
@@ -155,7 +159,7 @@ p {
 }
 #prices .product-packages .packages-container { padding: 30px; }
 #prices .product-packages .packages-container .package .package-name {
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #5F92AA;
 }
@@ -170,14 +174,14 @@ p {
 #contact p, #contact form input, #contact form textarea { font-size: 11px; }
 #contact .contact-container.contact-info-container { width: 300px; }
 #contact .contact-container .content-header {
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #C3D0B8;
 }
 #contact .contact-container.contact-form-container .submit-container { height: 30px; }
 #contact .contact-container.contact-form-container .submit-container .btn {
 	background-color: #5A9592;
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 12px;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -196,7 +200,7 @@ p {
 }
 
 #footer .footer-container .copyright, #footer .footer-container .links {
-	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-family: 'Muli', 'Arial';
 	font-size: 12px;
 	margin-bottom: 10px;
 	font-weight: bold;

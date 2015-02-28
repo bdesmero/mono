@@ -189,4 +189,15 @@ p {
 	}
 }
 
-#footer { padding: 30px 25px; }
+#footer .footer-container {
+	height: 120px;
+	padding: 30px;
+	text-transform: uppercase;
+}
+
+#footer .footer-container .copyright, #footer .footer-container .links {
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}

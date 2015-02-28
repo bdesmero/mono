@@ -10,12 +10,13 @@ nav {
 	display: none;
 	text-transform: uppercase;
 }
-
-nav .navbar {
+nav.navbar {
 	margin-bottom: 0;
 	border: none;
 	min-height: 0;
 }
+nav.navbar .navbar-header .navbar-brand { padding: 10px 15px; }
+nav.navbar .navbar-header .navbar-brand img { height: 35px; }
 
 p {
 	font-family: 'Domain Text', 'Calibri', 'Arial';
@@ -146,7 +147,7 @@ p {
 	margin-top: 10px;
 	padding: 0;
 }
-#prices .product-packages .content-header { 
+#prices .product-packages .content-header {
 	width: 100%;
 	background-color: #5F92AA;
 	color: #FFFFFF;
@@ -161,7 +162,7 @@ p {
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
 
 #contact { background-color: #C3D088; }
-#contact .contact-container { 
+#contact .contact-container {
 	margin: auto;
 	margin-top: 10px;
 	text-align: left;

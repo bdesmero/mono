@@ -27,12 +27,16 @@ $(document).ready(function(){
 
 	// Navbar links on click
 	$('.navbar a, a.home-link').on('click', function(e){
-		e.preventDefault();
-		var el = $($(this).attr('href'));
+		var $this = $(this);
 
-		$('html, body').animate({
-        scrollTop: el.offset().top
-    }, 1000, 'swing');
+		if (!$this.hasClass('blog-link')) {
+			e.preventDefault();
+			var el = $($this.attr('href'));
+
+			$('html, body').animate({
+				scrollTop: el.offset().top
+	    }, 1000, 'swing');
+		}
 	});
 
 	// Initialize slick for image gallery

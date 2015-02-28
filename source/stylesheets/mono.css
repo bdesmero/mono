@@ -146,7 +146,7 @@ p {
 	margin-top: 10px;
 	padding: 0;
 }
-#prices .product-packages .content-header { 
+#prices .product-packages .content-header {
 	width: 100%;
 	background-color: #5F92AA;
 	color: #FFFFFF;
@@ -161,7 +161,7 @@ p {
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
 
 #contact { background-color: #C3D088; }
-#contact .contact-container { 
+#contact .contact-container {
 	margin: auto;
 	margin-top: 10px;
 	text-align: left;
@@ -188,4 +188,15 @@ p {
 	}
 }
 
-#footer { padding: 30px 25px; }
+#footer .footer-container {
+	height: 120px;
+	padding: 30px;
+	text-transform: uppercase;
+}
+
+#footer .footer-container .copyright, #footer .footer-container .links {
+	font-family: 'Brandon Grotesque', 'Calibri', 'Arial';
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}

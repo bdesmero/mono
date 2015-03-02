@@ -29,7 +29,7 @@ p {
 .section-container {
 	max-width: 960px;
 	margin: auto;
-	padding: 75px 0;
+	padding: 95px 0;
 	text-align: center;
 }
 
@@ -171,18 +171,19 @@ p {
 }
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
 
-#contact { background-color: #C3D088; }
+#contact { background-color: #B0CCC4; }
 #contact .contact-container {
 	margin: auto;
 	margin-top: 10px;
 	text-align: left;
+	height: 340px;
 }
 #contact p, #contact form input, #contact form textarea { font-size: 11px; }
 #contact .contact-container.contact-info-container { width: 300px; }
 #contact .contact-container .content-header {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
-	color: #C3D0B8;
+	color: #5A9592;
 }
 #contact .contact-container.contact-form-container .submit-container { height: 30px; }
 #contact .contact-container.contact-form-container .submit-container .btn {

@@ -111,9 +111,7 @@ p {
 	color: #DEB879;
 }
 #home .introduction-container .content-footer { margin-top: 10px; }
-#home .divider {
-	margin: 10px auto;
-}
+#home .divider { margin: 10px auto; }
 
 @media (max-width: 991px) {
 	#home .introduction-container {
@@ -168,13 +166,15 @@ p {
 	color: #FFFFFF;
 	padding: 5px;
 }
-#prices .product-packages .packages-container { padding: 30px; }
+#prices .product-packages .packages-container { padding-bottom: 30px; }
+#prices .product-packages .packages-container .package { margin-top: 30px; }
 #prices .product-packages .packages-container .package .package-name {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #5F92AA;
 }
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
+#prices .divider { margin: 5px auto; }
 
 #contact { background-color: #B0CCC4; }
 #contact .contact-container {

@@ -87,10 +87,14 @@
 .slick-prev:before
 {
     content: '←';
+    color: transparent;
+    background-image: url('/images/left_arrow.png');
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
+    color: transparent;
+    background-image: url('/images/right_arrow.png');
 }
 
 .slick-next
@@ -105,10 +109,14 @@
 .slick-next:before
 {
     content: '→';
+    color: transparent;
+    background-image: url('/images/right_arrow.png');
 }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
+    color: transparent;
+    background-image: url('/images/left_arrow.png');
 }
 
 /* Dots */

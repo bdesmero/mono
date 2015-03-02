@@ -29,7 +29,7 @@ p {
 .section-container {
 	max-width: 960px;
 	margin: auto;
-	padding: 75px 0;
+	padding: 95px 0;
 	text-align: center;
 }
 
@@ -103,12 +103,15 @@ p {
 	font-family: 'Lora', 'Times New Roman';
 	font-size: 25px;
 	color: #000000;
+	margin-bottom: 10px;
 }
 #home .introduction-container .subtext {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #DEB879;
 }
+#home .introduction-container .content-footer { margin-top: 10px; }
+#home .divider { margin: 10px auto; }
 
 @media (max-width: 991px) {
 	#home .introduction-container {
@@ -163,26 +166,29 @@ p {
 	color: #FFFFFF;
 	padding: 5px;
 }
-#prices .product-packages .packages-container { padding: 30px; }
+#prices .product-packages .packages-container { padding-bottom: 30px; }
+#prices .product-packages .packages-container .package { margin-top: 30px; }
 #prices .product-packages .packages-container .package .package-name {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #5F92AA;
 }
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
+#prices .divider { margin: 5px auto; }
 
-#contact { background-color: #C3D088; }
+#contact { background-color: #B0CCC4; }
 #contact .contact-container {
 	margin: auto;
 	margin-top: 10px;
 	text-align: left;
+	height: 340px;
 }
 #contact p, #contact form input, #contact form textarea { font-size: 11px; }
 #contact .contact-container.contact-info-container { width: 300px; }
 #contact .contact-container .content-header {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
-	color: #C3D0B8;
+	color: #5A9592;
 }
 #contact .contact-container.contact-form-container .submit-container { height: 30px; }
 #contact .contact-container.contact-form-container .submit-container .btn {

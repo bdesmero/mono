@@ -103,11 +103,16 @@ p {
 	font-family: 'Lora', 'Times New Roman';
 	font-size: 25px;
 	color: #000000;
+	margin-bottom: 10px;
 }
 #home .introduction-container .subtext {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #DEB879;
+}
+#home .introduction-container .content-footer { margin-top: 10px; }
+#home .divider {
+	margin: 10px auto;
 }
 
 @media (max-width: 991px) {

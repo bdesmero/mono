@@ -156,6 +156,7 @@ p {
 #prices { background-color: #C3E3EC; }
 #prices .product-packages {
 	width: 260px;
+	height: 486px;
 	margin: auto;
 	margin-top: 10px;
 	padding: 0;

@@ -74,19 +74,24 @@ $(document).ready(function(){
 		var $this = $(this),
 				target = $this.data('gallery'),
 				$targetGallery = $("#" + target + "-gallery"),
+				$galleryClose = $('.gallery-close'),
 				$productInfo = $('#product .section-container .row');
 
 		$targetGallery.show();
+		$galleryClose.show();
 		$productInfo.hide();
 	});
 
+	// Close product gallery
 	$('.gallery-close').on('click', function(e){
 		e.preventDefault();
 
-		var $galleryContainer = $('.gallery-container:visible'),
+		var $this = $(this),
+				$galleryContainer = $('.gallery-container:visible'),
 				$productInfo = $('#product .section-container .row');
 
 		$galleryContainer.hide();
+		$this.hide();
 		$productInfo.show();
 	});
 });

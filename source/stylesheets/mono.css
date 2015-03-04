@@ -125,6 +125,11 @@ p {
 	font-family: 'Lora', 'Times New Roman';
 	font-style: italic;
 }
+#product .gallery-close {
+	display: none;
+	position: absolute;
+	right: 135px;
+}
 #product .gallery-container { display: none; }
 #product .gallery-container .gallery img {
 	width: initial;

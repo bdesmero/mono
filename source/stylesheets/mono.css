@@ -142,6 +142,7 @@ p {
 	top: 50%;
 	transform: translateY(-50%);
 }
+#product .product-info .product-description .description-wrapper .content-body { padding: 0 35px; }
 #product .product-info .product-image.hover { display: none; }
 #product .product-info .product-description.hover { display: block; }
 

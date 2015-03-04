@@ -79,4 +79,14 @@ $(document).ready(function(){
 		$targetGallery.show();
 		$productInfo.hide();
 	});
+
+	$('.gallery-close').on('click', function(e){
+		e.preventDefault();
+
+		var $galleryContainer = $('.gallery-container:visible'),
+				$productInfo = $('#product .section-container .row');
+
+		$galleryContainer.hide();
+		$productInfo.show();
+	});
 });

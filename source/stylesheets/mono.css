@@ -68,8 +68,9 @@ p {
 }
 
 #top {
-	background-image: url('/images/top.jpg');
-	background-size: cover;
+	background-color: #B0CCC4;
+	//background-image: url('/images/top.jpg');
+	//background-size: cover;
 }
 #top .section-container {
 	padding-top: 250px;

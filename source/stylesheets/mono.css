@@ -67,11 +67,9 @@ p {
 	text-decoration: none;
 }
 
-#top img.background {
-	width: initial;
-	height: 100%;
-	position: absolute;
-	z-index: -1;
+#top {
+	background-image: url('/images/top.jpg');
+	background-size: cover;
 }
 #top .section-container {
 	padding-top: 250px;

@@ -73,14 +73,17 @@ p {
 	position: absolute;
 	z-index: -1;
 }
-#top .section-container { padding-top: 250px; }
+#top .section-container {
+	padding-top: 250px;
+	padding-bottom: 54px;
+}
 #top .section-container .logo { width: 50%; }
 #top .section-container .down-arrow {
 	margin-top: 150px;
 	display: block;
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1150px) {
 	#top img.background {
 		width: 100%;
 		height: initial;

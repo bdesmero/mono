@@ -130,8 +130,8 @@ p {
 }
 #product .gallery-close {
 	display: none;
-	position: absolute;
-	right: 135px;
+	//position: absolute;
+	//right: 135px;
 }
 #product .gallery-container { display: none; }
 #product .gallery-container .gallery img {

@@ -125,6 +125,7 @@ p {
 
 
 #product, .product { background-color: #F0DAD3; }
+#product .divider { margin: 15px; }
 #product .content-footer {
 	font-family: 'Lora', 'Times New Roman';
 	font-style: italic;

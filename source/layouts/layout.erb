@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width" /> 
+    <meta name="viewport" content="width=device-width" />
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -14,10 +14,24 @@
     <%= stylesheet_link_tag "normalize", "bootstrap.min", "slick", "slick-theme", "mono" %>
     <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Lora:400,400italic" %>
     <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Muli" %>
+    <%= stylesheet_link_tag "blueimp-gallery.min" %>
+
     <%= javascript_include_tag  "jquery.min", "slick.min.js", "mono" %>
   </head>
 
   <body class="<%= page_classes %>">
     <%= yield %>
+
+    <script src="/javascripts/blueimp-gallery.min.js"></script>
+    <script>
+      document.getElementsByClassName('gallery-2').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+              link = target.src ? target.parentNode : target,
+              options = {index: link, event: event},
+              links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+      };
+    </script>
   </body>
 </html>

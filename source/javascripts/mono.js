@@ -68,30 +68,30 @@ $(document).ready(function(){
 	);
 
 	// Product view gallery
-	$('.gallery-link').on('click', function(e){
+	$('.gallery-link').on('click', function(e) {
 		e.preventDefault();
 
 		var $this = $(this),
 				target = $this.data('gallery'),
 				$targetGallery = $("#" + target + "-gallery"),
-				$galleryClose = $('.gallery-close'),
 				$productInfo = $('#product .section-container .row');
 
 		$targetGallery.show();
-		$galleryClose.show();
 		$productInfo.hide();
+
+		blueimp.Gallery(
+				document.getElementById(target + '-gallery').getElementsByTagName('a'),
+				{
+						container: '#blueimp-gallery-carousel',
+						carousel: true
+				}
+		);
 	});
 
-	// Close product gallery
-	$('.gallery-close').on('click', function(e){
-		e.preventDefault();
-
-		var $this = $(this),
-				$galleryContainer = $('.gallery-container:visible'),
-				$productInfo = $('#product .section-container .row');
-
-		$galleryContainer.hide();
-		$this.hide();
-		$productInfo.show();
+	$('#blueimp-gallery-carousel .close').on('click', function(e){
+		$('.gallery-2').hide('fast', function(){
+			$('#product .section-container .row').show('slow');
+		});
 	});
+
 });

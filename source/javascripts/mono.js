@@ -89,7 +89,7 @@ $(document).ready(function(){
 	});
 
 	$('#blueimp-gallery-carousel .close').on('click', function(e){
-		$('.gallery-2').hide('fast', function(){
+		$('.product-gallery').hide('fast', function(){
 			$('#product .section-container .row').show('slow');
 		});
 	});

@@ -151,6 +151,16 @@ p {
 #product .product-info .product-image.hover { display: none; }
 #product .product-info .product-description.hover { display: block; }
 
+#product .gallery-2 { display: none; }
+#product .blueimp-gallery-carousel {
+	background: transparent;
+	box-shadow: none;
+}
+#product .blueimp-gallery-carousel .close {
+	color: black;
+	text-shadow: none;
+}
+
 @media (min-width: 992px) {
 	#product .product-info .product-description {
 		display: none;
@@ -235,5 +245,3 @@ p {
 	margin-bottom: 10px;
 	font-weight: bold;
 }
-
-.gallery-2 { display: none; }

@@ -100,6 +100,7 @@ p {
 #home .introduction-container {
 	margin: 10px auto;
 	height: 415px;
+	padding: 30px;
 }
 #home .introduction-container .introduction {
 	font-family: 'Lora', 'Times New Roman';
@@ -113,7 +114,7 @@ p {
 	color: #DEB879;
 }
 #home .introduction-container .content-footer { margin-top: 10px; }
-#home .divider { margin: 10px auto; }
+#home .divider { margin: 20px auto; }
 
 @media (max-width: 991px) {
 	#home .introduction-container {
@@ -124,6 +125,7 @@ p {
 
 
 #product, .product { background-color: #F0DAD3; }
+#product .divider { margin: 15px; }
 #product .content-footer {
 	font-family: 'Lora', 'Times New Roman';
 	font-style: italic;
@@ -190,7 +192,7 @@ p {
 	color: #5F92AA;
 }
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
-#prices .divider { margin: 5px auto; }
+#prices .divider { margin: 15px auto; }
 
 #contact { background-color: #B0CCC4; }
 #contact .contact-container {

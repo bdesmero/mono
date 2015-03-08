@@ -192,7 +192,7 @@ p {
 	color: #5F92AA;
 }
 #prices .product-packages .packages-container .package .price { font-weight: bold; }
-#prices .divider { margin: 5px auto; }
+#prices .divider { margin: 15px auto; }
 
 #contact { background-color: #B0CCC4; }
 #contact .contact-container {

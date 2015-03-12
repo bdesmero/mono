@@ -15,8 +15,8 @@ nav.navbar {
 	border: none;
 	min-height: 0;
 }
-nav.navbar .navbar-header .navbar-brand { padding: 10px 15px; }
-nav.navbar .navbar-header .navbar-brand img { height: 35px; }
+nav.navbar .navbar-header .navbar-brand { padding: 13px 15px; }
+nav.navbar .navbar-header .navbar-brand img { height: 24px; }
 
 p {
 	font-family: 'Lora', 'Times New Roman';

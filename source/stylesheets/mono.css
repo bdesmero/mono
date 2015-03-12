@@ -92,15 +92,16 @@ p {
 #home { background-color: #F0EADF; }
 #home .section-container .row { margin-top: 75px; }
 #home .portrait-container {
-	width: 300px;
-	height: 415px;
+	width: 260px;
+	height: 360px;
 	margin: 10px auto;
 	padding: 10px 0;
 }
+#home .portrait-container img { width: 240px; }
 #home .introduction-container {
-	margin: 10px auto;
-	height: 415px;
-	padding: 30px;
+	margin: 10px 15px;
+	height: 360px;
+	padding: 20px;
 }
 #home .introduction-container .introduction {
 	font-family: 'Lora', 'Times New Roman';
@@ -114,12 +115,13 @@ p {
 	color: #DEB879;
 }
 #home .introduction-container .content-footer { margin-top: 10px; }
-#home .divider { margin: 20px auto; }
+#home .divider { margin: 15px auto; }
 
 @media (max-width: 991px) {
 	#home .introduction-container {
-		width: 300px;
-		height: 485px;
+		margin: auto;
+		width: 260px;
+		height: 475px;
 	}
 }
 

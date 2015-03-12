@@ -18,26 +18,29 @@ nav.navbar {
 }
 nav.navbar .navbar-header .navbar-brand { padding: 13px 15px; }
 nav.navbar .navbar-header .navbar-brand img { height: 24px; }
-nav.navbar .navbar-nav li a.active:after {
-	content: '';
-	width: 0px;
-	height: 0px;
-	border: 13px solid transparent;
-	border-bottom: 13px solid white;
-	position: absolute;
-	bottom: 0px;
-	left: 30px;
+
+@media (min-width: 768px) {
+	nav.navbar .navbar-nav li a.active:after {
+		content: '';
+		width: 0px;
+		height: 0px;
+		border: 13px solid transparent;
+		border-bottom: 13px solid white;
+		position: absolute;
+		bottom: 0px;
+		left: 30px;
+	}
+	nav.navbar .navbar-nav li a#nav-home.active:after {
+		left: 13px;
+		border-bottom-color: #F0EADF;
+	}
+	nav.navbar .navbar-nav li a#nav-product.active:after { border-bottom-color: #F0DAD3; }
+	nav.navbar .navbar-nav li a#nav-prices.active:after {
+		left: 22px;
+		border-bottom-color: #C3E3EC;
+	}
+	nav.navbar .navbar-nav li a#nav-contact.active:after { border-bottom-color: #B0CCC4; }
 }
-nav.navbar .navbar-nav li a#nav-home.active:after {
-	left: 13px;
-	border-bottom-color: #F0EADF;
-}
-nav.navbar .navbar-nav li a#nav-product.active:after { border-bottom-color: #F0DAD3; }
-nav.navbar .navbar-nav li a#nav-prices.active:after {
-	left: 22px;
-	border-bottom-color: #C3E3EC;
-}
-nav.navbar .navbar-nav li a#nav-contact.active:after { border-bottom-color: #B0CCC4; }
 
 p {
 	font-family: 'Lora', 'Times New Roman';

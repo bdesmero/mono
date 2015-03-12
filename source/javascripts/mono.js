@@ -39,6 +39,29 @@ $(document).ready(function(){
 		}
 	});
 
+	// Sticky links - Activate links on navbar as user scrolls through sections
+	var $sections = $('section'),
+			$nav = $('nav'),
+			navHeight = $nav.outerHeight();
+
+	$window.on('scroll', function () {
+	  var currentPosition = $(this).scrollTop();
+
+	  $sections.each(function() {
+	    var $this = $(this),
+					top = $this.offset().top - navHeight,
+	        bottom = top + $this.outerHeight();
+
+	    if (currentPosition >= top && currentPosition <= bottom) {
+	      $nav.find('a').removeClass('active');
+	      $sections.removeClass('active');
+
+	      $this.addClass('active');
+	      $nav.find('a[href="#'+$this.attr('id')+'"]').addClass('active');
+	    }
+	  });
+	});
+
 	// Product image hover
 	// TODO fix hover on smaller screen sizes
 	$('.product-info').hover(

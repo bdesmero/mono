@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	var aboveThreshold = function(){
 		var scrollTop = $window.scrollTop(),
-				navHeight = ($window.height() - 150);
+				navHeight = ($window.height() - 50);
 
 		return scrollTop > navHeight;
 	};

@@ -261,9 +261,12 @@ p {
 }
 
 @media (max-width: 991px) {
+	#contact .contact-container.contact-info-container { width: 340px; }
 	#contact .contact-form-container {
-		width: 300px;
+		width: 340px;
+		min-height: 425px;
 	}
+	#contact .contact-container.contact-form-container .submit-container .btn { margin-top: 10px; }
 }
 
 #footer .footer-container {
@@ -279,3 +282,11 @@ p {
 	font-weight: bold;
 }
 #footer .footer-container .links a { color: black; }
+
+
+#recaptcha_image,
+#recaptcha_image img
+{
+    width: 200px !important;
+    cursor: pointer;
+}

@@ -114,4 +114,26 @@ $(document).ready(function(){
 		});
 	});
 
+	// Contact form submit
+	$('.contact-submit').on('click', function(e) {
+		e.preventDefault();
+
+		if ($('.g-recaptcha-response').val()) {
+			$.ajax({
+			  dataType: 'jsonp',
+			  url: "http://getsimpleform.com/messages/ajax?form_api_token=e353fff5c3ce9b797632717c333784c6",
+			  data: {
+			    name: $('form #contact-name').val(),
+					email: $('form #contact-email').val(),
+					subject: $('form #contact-subject').val(),
+			    message: $('form #contact-message').val()
+			  }
+			}).done(function() {
+			  $('.alert-success').slideDown().delay(2000).fadeOut('slow');
+			});
+		} else {
+			$('.alert-danger').slideDown().delay(2000).fadeOut('slow');
+		}
+	});
+
 });

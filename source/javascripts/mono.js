@@ -114,4 +114,9 @@ $(document).ready(function(){
 		});
 	});
 
+	// Contact form submit
+	$('.contact-submit').on('click', function(e) {
+		//e.preventDefault();
+	});
+
 });

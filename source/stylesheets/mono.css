@@ -282,11 +282,3 @@ p {
 	font-weight: bold;
 }
 #footer .footer-container .links a { color: black; }
-
-
-#recaptcha_image,
-#recaptcha_image img
-{
-    width: 200px !important;
-    cursor: pointer;
-}

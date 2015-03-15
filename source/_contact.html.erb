@@ -26,7 +26,7 @@
 			<div class="col-md-6">
 				<div class="contact-container contact-form-container well">
 					<div class="content-header">Send meg en epost</div>
-					<form action="https://getsimpleform.com/messages?form_api_token=e353fff5c3ce9b797632717c333784c6" method="post">
+					<form>
 						<div class="form-group">
 							<input type="text" class="form-control" id="contact-name" name="name" placeholder="Navn">
 						</div>
@@ -43,7 +43,13 @@
 							<textarea class="form-control" id="contact-message" name="message" placeholder="Melding" rows="5"></textarea>
 						</div>
 
+						<div class="alerts-container">
+							<div class="alert alert-success" role="alert">Message sent successfully!</div>
+							<div class="alert alert-danger" role="alert">Message cannot be sent. Please verify by captcha first.</div>
+						</div>
+
 						<div class="submit-container">
+							<div class="g-recaptcha" data-sitekey="6Lc-hgMTAAAAAGFNyQX4whB31iRF_JCjC_qoKLhr" rows="2"></div>
 							<button type="submit" class="btn btn-default pull-right contact-submit">Send</button>
 						</div>
 					</form>

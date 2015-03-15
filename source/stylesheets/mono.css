@@ -235,7 +235,7 @@ p {
 	margin: auto;
 	margin-top: 10px;
 	text-align: left;
-	height: 340px;
+	min-height: 385px;
 }
 #contact p, #contact form input, #contact form textarea { font-size: 11px; }
 #contact .contact-container.contact-info-container { width: 300px; }
@@ -244,13 +244,20 @@ p {
 	font-size: 14px;
 	color: #5A9592;
 }
-#contact .contact-container.contact-form-container .submit-container { height: 30px; }
+#contact .contact-container.contact-form-container .alerts-container .alert {
+	display: none;
+	padding: 5px 10px;
+	font-size: 11px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
 #contact .contact-container.contact-form-container .submit-container .btn {
 	background-color: #5A9592;
 	font-family: 'Muli', 'Arial';
 	font-size: 12px;
 	color: #FFFFFF;
 	text-transform: uppercase;
+	margin-top: -78px;
 }
 
 @media (max-width: 991px) {

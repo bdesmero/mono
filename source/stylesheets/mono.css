@@ -235,14 +235,25 @@ p {
 	margin: auto;
 	margin-top: 10px;
 	text-align: left;
-	min-height: 385px;
+	min-height: 392px;
 }
 #contact p, #contact form input, #contact form textarea { font-size: 11px; }
 #contact .contact-container.contact-info-container { width: 300px; }
+#contact .contact-container.contact-info-container table { margin-bottom: 25px; }
+#contact .contact-container.contact-info-container table tr td {
+	font-family: 'Lora', 'Times New Roman';
+	font-size: 11px;
+	font-weight: bold;
+	height: 20px;
+}
+#contact .contact-container.contact-info-container .map-container { text-align: center; }
+#contact .contact-container.contact-info-container .map-container iframe { margin-top: 25px; }
+#contact .contact-container.contact-info-container p { font-weight: bold; }
 #contact .contact-container .content-header {
 	font-family: 'Muli', 'Arial';
 	font-size: 14px;
 	color: #5A9592;
+	margin-bottom: 5px;
 }
 #contact .contact-container.contact-form-container .alerts-container .alert {
 	display: none;

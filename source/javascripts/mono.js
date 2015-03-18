@@ -117,9 +117,6 @@ $(document).ready(function(){
 	});
 
 	// Contact form submit
-	// SimpleForm api tokens
-	// 	katrinefoto@gmail.com: 90ade281f6f37db6fd2768a406c53d30
-	// 	bdesmero@gmail.com: e353fff5c3ce9b797632717c333784c6
 	$('.contact-submit').on('click', function(e) {
 		e.preventDefault();
 

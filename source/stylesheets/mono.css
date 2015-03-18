@@ -99,12 +99,13 @@ p {
 	background-size: cover;
 }
 #top .section-container {
-	padding-top: 250px;
-	padding-bottom: 54px;
+	padding-bottom: 0;
+	position: absolute;
+	bottom: 10px;
 }
 #top .section-container .logo { width: 50%; }
-#top .section-container .down-arrow {
-	margin-top: 150px;
+#top .section-container .down-arrow { 
+	margin-top: 50px;
 	display: block;
 }
 
@@ -113,6 +114,16 @@ p {
 		width: 100%;
 		height: initial;
 	}
+}
+
+@media (min-width: 1100px) {
+	#top .section-container {
+		padding-top: 250px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#top .section-container .down-arrow { margin-top: 150px; }
 }
 
 #home { background-color: #F0EADF; }

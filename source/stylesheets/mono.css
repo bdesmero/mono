@@ -274,9 +274,9 @@ p {
 }
 
 @media (max-width: 991px) {
-	#contact .contact-container.contact-info-container { width: 340px; }
+	#contact .contact-container.contact-info-container { width: 260px; }
 	#contact .contact-form-container {
-		width: 340px;
+		width: 260px;
 		min-height: 425px;
 	}
 	#contact .contact-container.contact-form-container .submit-container .btn { margin-top: 10px; }

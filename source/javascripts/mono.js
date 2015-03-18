@@ -99,6 +99,8 @@ $(document).ready(function(){
 		$targetGallery.show();
 		$productInfo.hide();
 
+		$window.scrollTop($targetGallery.offset().top - 50);
+
 		blueimp.Gallery(
 				document.getElementById(target + '-gallery').getElementsByTagName('a'),
 				{

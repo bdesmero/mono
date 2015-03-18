@@ -117,13 +117,16 @@ $(document).ready(function(){
 	});
 
 	// Contact form submit
+	// SimpleForm api tokens
+	// 	katrinefoto@gmail.com: 90ade281f6f37db6fd2768a406c53d30
+	// 	bdesmero@gmail.com: e353fff5c3ce9b797632717c333784c6
 	$('.contact-submit').on('click', function(e) {
 		e.preventDefault();
 
 		if ($('.g-recaptcha-response').val()) {
 			$.ajax({
 			  dataType: 'jsonp',
-			  url: "http://getsimpleform.com/messages/ajax?form_api_token=e353fff5c3ce9b797632717c333784c6",
+			  url: "http://getsimpleform.com/messages/ajax?form_api_token=90ade281f6f37db6fd2768a406c53d30",
 			  data: {
 			    name: $('form #contact-name').val(),
 					email: $('form #contact-email').val(),
